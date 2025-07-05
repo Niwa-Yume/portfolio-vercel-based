@@ -1,25 +1,24 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Julien",
+  lastName: "Castro",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Développeur",
+  avatar: "/images/moi.png",
+  email: "julien.castro@protonmail.com",
+  location: "Europe/Zurich", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Abonnez-vous à ma Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      J'écris ponctuellement sur le design, la technologie, et je partage mes réflexions entre de la créativité, de l’ingénierie et de mes passions.
     </>
   ),
 };
@@ -30,17 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Niwa-Yume",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/julien-castro/",
   },
   {
     name: "Email",
@@ -54,26 +48,25 @@ const home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  description: `Portfolio qui montre montre travaille de ${person.role}`,
+  headline: <>Construire un pont entre idée et réalité</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Projet récent : <strong className="ml-4">The head SPA switezrland</strong></>,
+    href: "/work/the_head_spa"
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Je suis Julien Castro un développeur avec 3 ans d'experience et plus de 80 projets. Je peux créer tout sortes de projet !
     </>
   ),
 };
 
 const about = {
   path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  label: "A propos",
+  title: `A propos – ${person.name}`,
+  description: `Rencontrez ${person.name}, ${person.role} de ${person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -83,114 +76,149 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/julien.castro/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Julien Castro est un développeur basé en Suisse, passionné par la création de ponts entre design, technologie et innovation. Il transforme les problématiques complexes en solutions simples, fonctionnelles et esthétiques. Son travail s'étend des interfaces digitales aux expériences interactives, avec une approche centrée sur l'humain et portée par l'ingéniosité technique.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Expériences professionnelles",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Rolex",
+        timeframe: "été 2025",
+        role: "Consultant développeur pour l'été",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Migration d'une application AngularJS vers Angular modern, améliorant la performance et en réécrivant les règles métier tout en modernisant l'interface utilisateur.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Intégration de nouveaux écran, fonctionnalités et pour assurer une transition fluide entre la nouvelle et l'ancienne version, en y faisant cohabiter une partie.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/rolex.svg.png",
+            alt: "Logo Rolex",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Noctinium",
+        timeframe: "septembre 2023 - Juin 2025",
+        role: "Fondateur",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            La communication et la gestion des événments sur les réseaux sociaux, en créant des contenus engageants et en gérant une liste d'emailing. Communication et négociation avec des acteurs du monde de la nuit pour organiser des événements.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Création de la plateforme et des services de crawling pour collecter des informations sur les événements de la nuit, en utilisant des technologies modernes pour assurer un agenda fiable de tout les événements sur Genève.
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/logo noctinium nouveau.png",
+            alt: "Logo Noctinium",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },{
+        company: "Rolex",
+        timeframe: "septembre 2024 - Janvier 2025",
+        role: "Stagiaire développeur chargé de projet",
+        achievements: [
+          <>
+            Migration d'une application AngularJS vers Angular modern, améliorant la performance et en réécrivant les règles métier tout en modernisant l'interface utilisateur.
+          </>,
+          <>
+            Intégration de nouveaux écran, fonctionnalités et pour assurer une transition fluide entre la nouvelle et l'ancienne version, en y faisant cohabiter une partie.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/rolex.svg.png",
+            alt: "Logo Rolex",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },,{
+        company: "Infomaniak",
+        timeframe: "Octobre 2023 - Janvier 2024",
+        role: "Technicien du service d'assistance technologique",
+        achievements: [
+          <>
+              Identifier les problèmes clients, et tenter de les solutionner ou le remonter au développeurs. Aptitude à résoudres des problèmes sous stress et proposer des solutions long termes.         </>,
+          <>
+            Compétences en assistance client et technique, ainsi que pour pour la résolution de problèmes bancaires et informatiques, en fournissant un support de haute qualité aux clients.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/logo-k.svg",
+            alt: "Logo Infomaniak",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Études",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Créa Omnes education Genève",
+        description: <>Bachelors en développement web et d'application</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "HEG",
+        description: <>Bachelor en science de l'informatique</>,
+      },
+      {
+        name: "ESIG",
+        description: <>Maturité d'informaticien de Gestion</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Compétences techniques",
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        description: <>Prototypage de site web et autre solutions</>,
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Next.js, Angular, NuxT.js, Vue.js, ",
+        description: <>Technologie Frontend</>,
+      },
+      {
+        title: "Supabase, Firebase, MongoDB, MariaDB, SQL",
+        description: <>Base de donnée</>,
+      },
+      {
+        title: "Laravel, Symfony, Spring Boot, Typescript",
+        description: <>Technologie Backend</>,
+      },
+      {
+        title: "Python, N8N, GPT, AgentIA",
+        description: <>Automatisation et bot(chatbot, crawler, traduction,etc..)</>,
+      },{
+        title: "Framer, Wordpresss, Shopify ",
+        description: <>CMS</>,
       },
     ],
   },
@@ -199,24 +227,24 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
+  title: "J'écris un blog sur ce qui me passe par la tête...",
+  description: `Lis ce que ${person.name} ce que j'écris dernièrement`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Travaux",
+  title: `Projets – ${person.name}`,
+  description: `Designer et développé par ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
   path: "/gallery",
-  label: "Gallery",
+  label: "Gallerie",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
