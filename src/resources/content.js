@@ -133,7 +133,8 @@ const about = {
             height: 9,
           },
         ],
-      },{
+      },
+      {
         company: "Rolex",
         timeframe: "septembre 2024 - Janvier 2025",
         role: "Stagiaire développeur chargé de projet",
@@ -153,7 +154,8 @@ const about = {
             height: 9,
           },
         ],
-      },,{
+      },
+      {
         company: "Infomaniak",
         timeframe: "Octobre 2023 - Janvier 2024",
         role: "Technicien du service d'assistance technologique",
