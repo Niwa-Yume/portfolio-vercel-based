@@ -106,7 +106,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/rolex.svg.png",
+            src: "/images/projects/project-01/Rolex.svg.png",
             alt: "Logo Rolex",
             width: 16,
             height: 9,
@@ -148,7 +148,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/project-01/rolex.svg.png",
+            src: "/images/projects/project-01/Rolex.svg.png",
             alt: "Logo Rolex",
             width: 16,
             height: 9,
