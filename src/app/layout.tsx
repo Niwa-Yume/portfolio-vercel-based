@@ -37,6 +37,9 @@ export default async function RootLayout({
       )}
     >
       <head>
+        <link rel="icon" href="/favicon.png?v=2" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.png?v=2" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png?v=2" />
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
