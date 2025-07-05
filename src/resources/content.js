@@ -57,7 +57,7 @@ const home = {
   },
   subline: (
     <>
-      Je suis Julien Castro un développeur avec 3 ans d'experience et plus de 80 projets. Je peux créer tout sortes de projet !
+      Je suis Julien Castro un développeur avec 3 ans d'experience et plus de 80 projets. Je peux créer tout sortes de site, app, IA, Chatbot, logiciel !
     </>
   ),
 };
