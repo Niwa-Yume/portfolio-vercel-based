@@ -1,94 +1,64 @@
-# **Magic Portfolio by Once UI**
+# **Portfolio de Julien Castro**
 
-View the [demo here](https://demo.magic-portfolio.com).
+Ce dépôt contient le code source de mon portfolio personnel. Il a été conçu pour présenter mon parcours, mes compétences et mes projets en tant que développeur passionné.
 
-![Magic Portfolio](https://demo.magic-portfolio.com/images/og/home.jpg)
+<br>
 
+## 👋 Bonjour, je suis Julien Castro
 
-# **Getting started**
+### Développeur | Créateur de Solutions 
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+Je suis un développeur basé en Suisse, passionné par la création de ponts entre design, technologie et innovation. Ma mission est de transformer les problématiques complexes en solutions simples, fonctionnelles et esthétiques. Mon travail s'étend des interfaces digitales aux expériences interactives, avec une approche centrée sur l'humain et portée par l'ingéniosité technique.
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+<br>
 
-**2. Install dependencies**
-```
+## 🚀 Lancer le projet localement
+
+Ce projet est construit avec **Next.js**. Pour le faire fonctionner sur votre machine, suivez ces étapes :
+
+**1. Cloner le dépôt**
+**2. Installer les dépendances**
+```bash
 npm install
 ```
-
-**3. Run dev server**
-```
+**3. Démarrer le serveur de développement**
+```bash
 npm run dev
 ```
+Ouvrez `http://localhost:3000` dans votre navigateur pour voir le résultat.
 
-**4. Edit config**
-```
-src/app/resources/config
-```
+<br>
 
-**5. Edit content**
-```
-src/app/resources/content
-```
+## 🛠️ Compétences Techniques
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
+| Catégorie             | Technologies                                           |
+| --------------------- | ------------------------------------------------------ |
+| **Frontend**          | Next.js, Angular, Nuxt.js, Vue.js, TypeScript          |
+| **Backend**           | Laravel, Symfony, Spring Boot, Node.js                 |
+| **Bases de Données**  | Supabase, Firebase, MongoDB, MariaDB, SQL              |
+| **Design & Prototypage** | Figma                                                  |
+| **Automatisation & IA** | Python, N8N, GPT Agents IA (Crawlers, Chatbots)        |
+| **CMS & No-Code**     | Framer, Wordpress, Shopify                             |
 
-# **Documentation**
+<br>
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+## 🎓 Formation
 
-# **Features**
+- **Bachelor en Développement Web et Applications**
+  *Créa Omnes Education, Genève*
 
-## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
+- **Bachelor en Science de l'Informatique**
+  *Haute École de Gestion (HEG), Genève*
 
-## **SEO**
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+- **Maturité d'Informaticien de Gestion**
+  *École Supérieure d'Informatique de Gestion (ESIG)*
 
-## **Design**
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+<br>
 
-## **Content**
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+## 📫 Me Contacter
 
-## **Localization**
-- A localized version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
+Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter !
 
-# **Authors**
-
-Connect with us on Threads or LinkedIn.
-
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-
-Localization added by [François Hernandez](https://github.com/francoishernandez)
-
-# **Get involved**
-
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
-- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
-
-# **License**
-
-Distributed under the CC BY-NC 4.0 License.
-- Commercial usage is not allowed.
-- Attribution is required.
-- You can extend the license to commercial use by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
-
-See `LICENSE.txt` for more information.
-
-# **Deploy with Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+- **LinkedIn** : [linkedin.com](https://www.linkedin.com/in/julien-castro/)
+- **Email** : `julien.castro@protonmail.com`
+- **GitHub** : `@Niwa-Yume`
