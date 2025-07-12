@@ -1,0 +1,94 @@
+---
+title: "Workflow N8N – Automatisation du scrapping des stages LinkedIn"
+publishedAt: "2024-11-15"
+summary: "Création d'un workflow N8N automatisé pour scrapper, trier et organiser tous les stages disponibles sur LinkedIn dans la région de Genève en fichier Excel pour l'école CREA."
+images:
+  - "/images/projects/n8n-CREA/N8n-logo-new.svg.png"
+  - "/images/projects/n8n-CREA/inseec-crea-logo.png"
+
+
+team:
+  - name: "Julien Castro"
+    role: "Développeur N8N & Automatisation"
+    avatar: "/images/moi.png"
+    linkedIn: "https://www.linkedin.com/in/julien-castro/"
+link: "https://github.com/Niwa-Yume/n8n-workflows-backup/blob/main/workflow/Linkedin_Stage_Scrapper.json"
+---
+
+## Contexte du projet
+
+L'école CREA effectuait manuellement la recherche et le tri des offres de stages sur LinkedIn pour leurs étudiants dans la région de Genève et ses 40km alentours. Ce processus chronophage prenait plusieurs heures par semaine et était sujet aux erreurs humaines.
+
+## Objectif
+
+Développer un workflow N8N entièrement automatisé pour :
+- Scrapper automatiquement toutes les offres de stages sur LinkedIn
+- Filtrer géographiquement (Genève + 40km)
+- Trier et organiser les données par pertinence
+- Générer un fichier Excel structuré et détaillé
+- Faire gagner un temps précieux à l'équipe pédagogique
+
+## Fonctionnalités du workflow
+
+### 🔍 Scrapping automatisé
+- **Recherche ciblée** sur LinkedIn avec mots-clés spécifiques aux formations CREA
+- **Filtrage géographique** automatique (Genève + rayon de 40km)
+- **Extraction complète** des données : titre, entreprise, description, localisation, date de publication, critères requis
+
+### 📊 Traitement et organisation
+- **Déduplication automatique** pour éviter les doublons
+- **Tri par pertinence** selon les critères définis par l'école
+- **Catégorisation** par domaine d'études et niveau requis
+- **Validation des données** et nettoyage automatique
+
+### 📈 Export et livrable
+- **Génération Excel** avec colonnes structurées et formatage professionnel
+- **Mise à jour quotidienne** automatique
+- **Notifications** par email à l'équipe avec le rapport quotidien
+
+## Architecture technique
+
+### Workflow N8N
+- **Trigger temporel** : Exécution quotidienne à 7h00
+- **Nodes LinkedIn Scraper** : Extraction des données via API et scraping web
+- **Nodes de traitement** : Nettoyage, déduplication, tri
+- **Node Excel Generator** : Création du fichier structuré
+
+### Technologies utilisées
+- **N8N** (Workflow automation)
+- **JavaScript** (Traitement des données)
+- **LinkedIn API** (Récupération des offres)
+- **Excel** (Génération de fichiers)
+- **Node.js** (Runtime)
+- **Cron Jobs** (Planification)
+
+## Métriques et résultats
+
+### Qualité des données
+- **+300% d'offres trouvées** par rapport à la recherche manuelle
+- **0 doublon** grâce à la déduplication automatique
+- **Mise à jour quotidienne** vs hebdomadaire avant
+
+### Impact pédagogique
+- **Meilleure couverture** des opportunités disponibles
+- **Réactivité accrue** sur les nouvelles offres
+- **Plus de temps** consacré à l'accompagnement des étudiants
+
+## Défis techniques surmontés
+
+### Performance et scalabilité
+- **Traitement par lots** pour optimiser les performances
+- **Gestion des erreurs** robuste avec retry automatique
+
+## Évolutions prévues
+
+- **IA d'analyse** pour scorer automatiquement la pertinence des offres
+- **Intégration Teams** pour notifications temps réel
+- **Dashboard web** pour consultation en ligne
+- **Extension** à d'autres plateformes (Indeed, Jobs.ch)
+
+## Impact pour l'école CREA
+
+Ce projet a révolutionné la gestion des stages à l'école CREA en automatisant complètement un processus manuel fastidieux. L'équipe pédagogique peut désormais se concentrer sur l'accompagnement des étudiants plutôt que sur la recherche d'offres, tout en ayant accès à une base de données exhaustive et mise à jour quotidiennement.
+
+**Résultat** : Un gain de temps de 95% et une amélioration significative de la qualité du service aux étudiants.

@@ -49,7 +49,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio qui montre mon travail de ${person.role}`,
-  headline: <>Construire un pont entre idée et réalité</>,
+  headline: <>Créateur de solution</>,
   featured: {
     display: true,
     title: <>Projet récent : <strong className="ml-4">The head SPA switezrland</strong></>,

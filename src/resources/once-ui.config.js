@@ -7,8 +7,8 @@ const routes = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": true,
-  "/gallery": true,
+  "/blog": true, // Masquer le blog de la navigation
+  "/gallery": false, // Masquer la galerie de la navigation
 };
 
 const display = {
