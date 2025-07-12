@@ -27,7 +27,7 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
         second: "2-digit",
         hour12: false,
       };
-      const timeString = new Intl.DateTimeFormat(locale, options).format(now);
+      const timeString = new Intl.DateTimeFormat("fr-FR", options).format(now);
       setCurrentTime(timeString);
     };
 
