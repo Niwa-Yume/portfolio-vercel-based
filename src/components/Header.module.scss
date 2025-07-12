@@ -13,7 +13,39 @@
     mask-size: 100% 100%;
 }
 
+/* Burger Button - masqué sur desktop, visible sur mobile */
+.burgerButton {
+    display: none;
+}
+
 @media (max-width: breakpoints.$s) {
+    .burgerButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 40px;
+        min-height: 40px;
+    }
+}
+
+/* Mobile Menu Overlay - SEULEMENT visible sur mobile */
+.mobileMenuOverlay {
+    display: none;
+}
+
+@media (max-width: breakpoints.$s) {
+    .mobileMenuOverlay {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.95);
+        z-index: 1000;
+        animation: slideInFromTop 0.3s ease-out;
+    }
+
     .position {
         top: auto;
         position: fixed;
@@ -23,5 +55,27 @@
     .mask {
         transform: rotate(180deg);
         bottom: 0;
+    }
+}
+
+.mobileMenuContent {
+    background: var(--page-background);
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Animations */
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
