@@ -10,7 +10,7 @@ const person = {
   avatar: "/images/moi.png",
   email: "julien.castro@protonmail.com",
   location: "Europe/Zurich", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Anglais", "Français"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -49,7 +49,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio qui montre mon travail de ${person.role}`,
-  headline: <>Créateur de solution</>,
+  headline: <>Artisan du Numérique Efficace</>,
   featured: {
     display: true,
     title: <>Projet récent : <strong className="ml-4">The head SPA switezrland</strong></>,
@@ -57,7 +57,7 @@ const home = {
   },
   subline: (
     <>
-      Je suis Julien Castro un développeur avec 3 ans d'experience et plus de 80 projets. Je peux créer tout sortes de site, app, IA, Chatbot, logiciel !
+      J'optimise votre temps en créant des solutions digitales sur-mesure. Je suis Julien Castro, partenaire de confiance pour les entreprises et particuliers exigeants. Ma spécialité : concevoir des sites web et applications élégants, et automatiser vos processus pour vous libérer des tâches chronophages.
     </>
   ),
 };
@@ -83,7 +83,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Julien Castro est un développeur basé en Suisse, passionné par la création de ponts entre design, technologie et innovation. Il transforme les problématiques complexes en solutions simples, fonctionnelles et esthétiques. Son travail s'étend des interfaces digitales aux expériences interactives, avec une approche centrée sur l'humain et portée par l'ingéniosité technique.
+        Mon parcours, de l'horlogerie de luxe chez Rolex à la finance chez FlowBank en passant par Infomaniak et son univers de solutions technologique, m'a enseigné une chose : le temps est l'actif le plus précieux.
+        C'est pourquoi aujourd'hui, en tant qu'architecte de solutions digitales, ma mission est de vous en faire gagner. Je transforme des problématiques complexes en solutions simples, fonctionnelles et esthétiques, en alliant l'ingéniosité technique à une compréhension profonde de vos enjeux business.
       </>
     ),
   },
@@ -197,30 +198,33 @@ const about = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Compétences techniques",
+    title: "Services",
     skills: [
       {
-        title: "Figma",
-        description: <>Prototypage de site web et autre solutions</>,
+        title: "Des Solutions Concrètes pour des Besoins d'Exception",
+        description: <>Je crée des expériences digitales haut de gamme pour les entreprises et les particuliers exigeants. Ma spécialité est de concevoir des sites web et applications sur-mesure, et d'automatiser vos tâches répétitives pour vous faire gagner un temps précieux.</>,
       },
       {
-        title: "Next.js, Angular, NuxT.js, Vue.js, ",
-        description: <>Technologie Frontend</>,
+        title: "MES DOMAINES D'EXPERTISE",
+        description: <></>,
       },
       {
-        title: "Supabase, Firebase, MongoDB, MariaDB, SQL",
-        description: <>Base de donnée</>,
+        title: "Automatisation & Gain de Temps (Mon cœur de métier)",
+        description: <>Outils : N8N, Python, Make, Zapier Je conçois des workflows sur-mesure pour éliminer vos tâches répétitives : de la génération de rapports au tri de données, en passant par la gestion de contacts.</>,
       },
       {
-        title: "Laravel, Symfony, Spring Boot, Typescript",
-        description: <>Technologie Backend</>,
+        title: "Développement Web & Applications sur-mesure",
+        description: <>Technologies Backend : Laravel, Symfony, Spring Boot... Technologies Frontend : Next.js, Angular, Vue.js... Je construis des plateformes robustes et des interfaces élégantes qui reflètent votre standing.</>,
       },
       {
-        title: "Python, N8N, GPT, AgentIA",
-        description: <>Automatisation et bot(chatbot, crawler, traduction,etc..)</>,
+        title: "Prototypage & Design d'Expérience (UX)",
+        description: <>Outils : Figma Avant de construire, nous visualisons. Je crée des prototypes interactifs pour s'assurer que la solution finale soit parfaitement alignée avec votre vision.</>,
       },{
-        title: "Framer, Wordpresss, Shopify ",
-        description: <>CMS</>,
+        title: "Intégration de CMS & Plateformes",
+        description: <>Outils : Wordpress, Shopify, Framer Je m'appuie sur des solutions éprouvées pour lancer rapidement des projets efficaces et faciles à gérer pour vous.</>,
+      },{
+        title: "Veille Stratégique : IA & Blockchain",
+        description: <>Technologies : GPT, Agents IA... Je suis votre conseiller pour démystifier ces innovations et identifier les opportunités pertinentes pour votre activité.</>,
       },
     ],
   },
